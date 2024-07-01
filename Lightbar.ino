@@ -2,6 +2,7 @@
 
 #define LEDRING 2
 
+// 11 LED's in ring, eerste LED gebruik ik niet (eerste LED gaat vaak stuk)
 Adafruit_NeoPixel Led(11, LEDRING, NEO_GRB + NEO_KHZ800);
 void Knipper(bool);
 
